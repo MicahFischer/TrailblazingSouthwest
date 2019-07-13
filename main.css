@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css?family=DM+Serif+Display|Nunito&display=swap');
+
+body {
+    margin: 0 auto;
+}
+
+nav {
+    font-family: 'DM Serif Display', serif;
+    background: rgb(139, 214, 207);
+    height: 105px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+nav a {
+    display: inline-block;
+    padding: 40px 16px;
+    color: rgb(47, 47, 47);
+    font-size: 18px;
+    text-decoration: none;
+    float: right;
+}
+
+
+nav a.trailblazing {
+    display: inline-block;
+    padding: 18.5px 16px;
+    font-size: 36px;
+    float: left;
+}
+
+nav a.trailblazing img {
+    height: 68px;
+    float: left;
+    display: block;
+}
+
+nav a.trailblazing span {
+    display: inline-block;
+    padding: 9.5px;
+}
+
+nav  img.menu {
+    height: 60px;
+    display: none;
+    float: right;
+    padding: 22.5px 20px;
+}
+
+
+header {
+    background: url("https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1308&q=80");
+    display: block;
+    background-position: center;
+    background-size: cover;
+    margin: 125px 20px 20px 20px;
+    padding: 120px 0 120px;
+}
+
+header .content {
+    display: block;
+    background: rgb(255, 162, 104);
+    padding: 40px 36px;
+    max-width: 800px;
+    margin: 0 auto;
+    border: 6px white solid;
+    outline: 3px white solid;
+    outline-offset: -20px;
+}
+
+header img {
+    display: block;
+    width: 79.6px;
+    margin: 0 auto 40px;
+    background: rgb(139, 214, 207);
+    padding: 9.5px 26.5px;
+    border-radius: 50%;
+}
+
+ .content h1 {
+    font-family: 'DM Serif Display', serif;
+    color: rgb(47, 47, 47);
+    font-size: 48px;
+    margin: 0;
+    line-height: 1em;
+}
+
+.content h3 {
+    font-family: 'DM Serif Display', serif;
+    color: rgb(47, 47, 47);
+    font-size: 24px;
+    margin: 0;
+    line-height: 1.35em;
+}
+
+ .content h2 {
+    font-family: 'Nunito', sans-serif;
+    color: rgb(47, 47, 47);
+    font-size: 22px;
+    text-transform: uppercase;
+    margin: 0;
+    line-height: 1em;
+}
+
+ .content hr {
+    border: 4px rgb(47, 47, 47) solid;
+    width: 40px;
+    margin: 20px 0 10px
+}
+
+ .content p, label {
+    font-family: 'Nunito', sans-serif;
+    color: rgb(47, 47, 47);
+    font-size: 22px;
+    margin: 12px 0;
+    line-height: 1.35em;
+}
+
+ .content a, .content button {
+    display: inline-block;
+    font-family: 'DM Serif Display', serif;
+    color: rgb(47, 47, 47);
+    font-size: 28px;
+    padding: 10px 20px;
+    line-height: 1.35em;
+    text-decoration: none;
+    background: rgb(139, 214, 207);
+    margin-top: 10px;
+    border: none;
+}
+
+input {
+    display: block;
+    background: white;
+    padding: 8px 16px;
+    font-family: 'DM Serif Display', serif;
+    color: rgb(47, 47, 47);
+    font-size: 22px;
+}
+
+section .content a {
+    background: rgb(255, 162, 104);
+}
+
+section {
+    display: block;
+    background: url("https://images.unsplash.com/photo-1513104576911-790fa6eda183?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 120px 20px;
+}
+
+section .content {
+    display: block;
+    border: 6px white solid;
+    outline: 3px white solid;
+    outline-offset: -20px;
+    max-width: 800px;
+    padding: 40px 30px;
+    background: rgb(139, 214, 207);
+}  
+
+article {
+    background: url("https://images.unsplash.com/photo-1455763916899-e8b50eca9967?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
+    display: block;
+    background-position: center;
+    background-size: cover;
+    margin: 20px;
+    padding: 120px 0 120px;
+}
+
+article .content {
+    display: block;
+    background: rgb(255, 162, 104);
+    padding: 40px 36px;
+    max-width: 800px;
+    margin: 0 auto;
+    border: 6px white solid;
+    outline: 3px white solid;
+    outline-offset: -20px;
+}
+
+aside {
+    background: url("https://images.unsplash.com/photo-1541516342299-a93196e274d8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1369&q=80");
+    display: block;
+    background-position: center;
+    background-size: cover;
+    margin: 20px;
+    padding: 60px 0;
+}
+
+aside .content {
+    display: block;
+    background: rgb(139, 214, 207);
+    padding: 40px 36px;
+    max-width: 800px;
+    margin: 0 auto;
+    border: 6px white solid;
+    outline: 3px white solid;
+    outline-offset: -20px;
+}
+
+aside h1, aside h2, aside h3, aside p {
+    text-align: center;
+}
+
+aside .content hr {
+    display: block;
+    margin: 20px auto 10px;
+}
+
+aside .content a {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgb(255, 162, 104);
+}
+
+@media (max-width: 1100px) {
+    nav a {
+        display: none;
+    }
+
+    nav a.trailblazing {
+        display: inline-block;
+    }
+
+    nav  img.menu {
+        display: inline-block;
+    }
+}
